@@ -256,8 +256,98 @@ int main(){
                 case 122:
                     printf(" --.. ");
                     break;
+				case 128:
+					printf(" -.-.. ");
+					break;
+				case 129:
+					printf(" ..-- ");
+					break;
+				case 130:
+					printf(" ..-.. ");
+					break;
+				case 132:
+					printf(" .-.- ");
+					break;
+				case 133:
+					printf(" .--.- ");
+					break;
+				case 134:
+					printf(" .--.- ");
+					break;
+				case 135:
+					printf(" -.-.. ");
+					break;
+				case 138:
+					printf(" .-..- ");
+					break;
+				case 142:
+					printf(" .-.- ");
+					break;
+				case 143:
+					printf(" .--.- ");
+					break;
+				case 144:
+					printf(" ..-.. ");
+					break;
+				case 145:
+					printf(" .-.- ");
+					break;
+				case 146:
+					printf(" .-.- ");
+					break;
+				case 148:
+					printf(" ---. ");
+					break;
+				case 150:
+					printf(" ..-- ");
+					break;
+				case 153:
+					printf(" ---. ");
+					break;
+				case 154:
+					printf(" ..-- ");
+					break;
+				case 155:
+					printf(" ---. ");
+					break;
+				case 157:
+					printf(" ---. ");
+					break;
+				case 160:
+					printf(" .--.- ");
+					break;
+				case 164:
+					printf(" --.-- ");
+					break;
+				case 165:
+					printf(" --.-- ");
+					break;
+				case 181:
+					printf(" .--.- ");
+					break;
+				case 183:
+					printf(" .--.- ");
+					break;
+				case 208:
+					printf(" ..--. ");
+					break;
+				case 209:
+					printf(" ..--. ");
+					break;
+				case 212:
+					printf(" .-..- ");
+					break;
+				case 231:
+					printf(" .--.. ");
+					break;
+				case 232:
+					printf(" .--.. ");
+					break;
+				case 234:
+					printf(" ..-- ");
+					break;
                 default:
-                    printf("?");
+                    printf(" ..... ");
             }
         }
         printf("\n\nAgain? (1 - y || 0 - n): ");
