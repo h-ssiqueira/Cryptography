@@ -1,2 +1,4 @@
 
 Cryptography-C/code
+.vscode/settings.json
+*.o
