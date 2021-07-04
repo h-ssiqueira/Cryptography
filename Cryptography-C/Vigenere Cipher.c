@@ -56,7 +56,7 @@ int main(){
 		getchar();
 		scanf("%[^\n]s", message);
 		getchar();
-		printf("\nInsert the key: ");
+		printf("\nInsert the key (word): ");
 		scanf("%[^\n]s", key);
 		strupr(message);
 		strupr(key);
