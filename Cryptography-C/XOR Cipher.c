@@ -6,7 +6,8 @@ int main(){
     char msg[1000];
 
     printf("Insert the key: ");
-    scanf("%d", &key); // key == 32 convert case of letter
+    if(scanf("%d", &key) == -1) // key == 32 convert case of letter
+        exit(0);
     printf("\nInsert the message: ");
     scanf("\n%[^\n]s",msg);
     printf("\nEN/DEcrypted: \n");

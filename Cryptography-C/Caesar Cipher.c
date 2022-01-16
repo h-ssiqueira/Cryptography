@@ -10,9 +10,10 @@ int main(){
     int n, k = 1;
 
     while(1){
-		printf("\nInsert:\n\t0 to close the program.\n\t1 to encrypt a message.\n\t2 to decrypt a message.\n ->  ");
-    	scanf("%d", &k);
-		if(k < 1 || k > 2)
+		printf("\nInsert:\n\t0 to close the program.\n\t1 to encrypt a message.\n\t2 to decrypt a message.\n -> ");
+		if(scanf("%d", &k) == -1)
+            break;
+        if(k < 1 || k > 2)
 			break;
         printf("\nInsert the message: ");
         getchar();
@@ -21,9 +22,6 @@ int main(){
         scanf("%d", &n);
 		n %= 26;
         printf("\nOriginal message: \n%s\n", string);
-		for(int i = 0; string[i] != '\0'; i++)
-			printf("%d ",string[i]);
-		printf("\n");
 		k == 1 ? encrypt(string, n) : decrypt(string, n);
     }
     return 0;

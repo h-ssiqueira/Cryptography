@@ -53,18 +53,18 @@ int main(){
 	char message[1024]; // 1 KB
 	int op, key;
 	while(1){
-		do{
-			printf("\nInsert:\n\t0 to close the program.\n\t1 to encrypt a message.\n\t2 to decrypt a message.\n ->  ");
-			scanf("%d", &op);
-		}while(op < 0 || op > 2);
-		if(op == 0)
+		printf("\nInsert:\n\t0 to close the program.\n\t1 to encrypt a message.\n\t2 to decrypt a message.\n ->  ");
+		if(scanf("%d", &op) == -1)
+			break;
+		if(op < 0 || op > 2)
 			break;
 		printf("\nInsert the message: ");
 		getchar();
 		scanf("%[^\n]s", message);
 		getchar();
 		printf("\nInsert the key (number): ");
-		scanf("%d", &key);
+		if(scanf("%d", &key) == -1)
+			break;
 		op == 1 ? encrypt(message, key) : /*decrypt(message, key)*/printf("Not ready yet...");
 	}
 	return 0;

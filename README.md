@@ -14,10 +14,10 @@ Cryptography programs
 	1. [Brute Force](https://github.com/h-ssiqueira/Cryptography/blob/master/Cryptography-C/Brute%20Force.c)
 	1. [Caesar Cipher](https://github.com/h-ssiqueira/Cryptography/blob/master/Cryptography-C/Caesar%20Cipher.c)
 	1. [Morse Code](https://github.com/h-ssiqueira/Cryptography/blob/master/Cryptography-C/Morse%20Code.c)
+	1. [Rail Fence Cipher (encrypt only)](https://github.com/h-ssiqueira/Cryptography/blob/master/Cryptography-C/Rail%20Fence%20Cipher.c)
 	1. [Rotation Cipher (encrypt only)](https://github.com/h-ssiqueira/Cryptography/blob/master/Cryptography-C/Rotation%20Cipher.c)
 	1. [Vigenère Cipher](https://github.com/h-ssiqueira/Cryptography/blob/master/Cryptography-C/Vigenere.c)
 	1. [XOR Cipher](https://github.com/h-ssiqueira/Cryptography/blob/master/Cryptography-C/XOR%20Cipher.c)
-
 
 * [Python](https://github.com/h-ssiqueira/Cryptography/tree/master/Cryptography-Python)
 	1. [XOR Cipher](https://github.com/h-ssiqueira/Cryptography/blob/master/Cryptography-Python/XOR_Cipher.py)

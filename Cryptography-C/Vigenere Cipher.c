@@ -46,11 +46,10 @@ int main(){
 	char message[max], key[max];
 	int op;
 	while(1){
-		do{
-			printf("\nInsert:\n\t0 to close the program.\n\t1 to encrypt a message.\n\t2 to decrypt a message.\n ->  ");
-			scanf("%d", &op);
-		}while(op < 0 || op > 2);
-		if(op == 0)
+		printf("\nInsert:\n\t0 to close the program.\n\t1 to encrypt a message.\n\t2 to decrypt a message.\n ->  ");
+		if(scanf("%d", &op) == -1)
+			break;
+		if(op < 0 || op > 2);
 			break;
 		printf("\nInsert the message: ");
 		getchar();
